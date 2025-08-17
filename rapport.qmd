@@ -255,7 +255,7 @@ Choisissez 3 problèmes :
 * un avec $n \approx 100$.
 
 ```{julia}
-g10, H10 = get_gH("DUALC1.SIF ", 1.0e-3)
+g10, H10 = get_gH("DUALC1.SIF", 1.0e-3)
 g50, H50 = get_gH("QCAPRI.SIF", 1.0e-3)
 g100, H100 = get_gH("QPILOTNO.SIF", 1.0e-3)
 ```
